@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        input[type=email], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #7e04aa;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #8045a0;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 50px;
+            padding-left: 500px;
+            padding-right: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <h2>Gopathoti Srinadh</h2>
+        </div>
+        <div class="navbar-right">
+            <a href="index.html" class="a active">Home</a>
+            <a href="about.html" class="a">About</a>
+            <a href="skills.html" class="a">Skills</a>
+            <a href="projects.html" class="a">Projects</a>
+            <a href="acheive.html" class="a">Acheivements</a>
+            <a href="contact.html" class="a">Contact</a>
+        </div>
+    </div>
+    <div class="contact-header">
+          <h1>Contact Me</h1>
+          <p>Get in Touch</p>
+    </div>
+    <div>
+        <form class="form">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Name..">
+      
+          <label for="lname">E-mail</E-mail></label>
+          <input type="email" id="lname" name="lastname" placeholder="Mail..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>

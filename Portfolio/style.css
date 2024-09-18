@@ -1,0 +1,273 @@
+body{
+  margin: 2px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    background-color: rgb(70, 4, 114);
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+}
+.navbar-left{
+    padding-left: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar-right{
+    padding-right: 25px;
+    font-size: 20px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-right a{
+    color: white;
+    text-decoration:none ;
+}
+.navbar-right a:hover{
+    color: rgb(213, 205, 220);
+}
+.navbar-right a:focus{
+    border-bottom: 1px solid #ffffff;
+}
+.a{
+    padding: 10px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home-right{
+    width: 70vh;
+    padding-right: 100px;
+    padding-top: 250px;
+}
+.home-right-p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.home-right-h3{
+    font-size: 30px;
+    opacity: 50%;
+    margin: 0px;
+}
+.home-right-h1{
+    font-size: 40px;
+    margin: 0px;
+}
+.image{
+    height: 500px;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.anchor{
+    padding-left: 10px;
+}
+.intro{
+    text-align: center;
+    font-family: cursive;
+}
+.intro h1{
+    margin-bottom: 0px;
+    font-size: 38px;
+}
+.intro p{
+    margin: 0px;
+    font-size: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-left{
+    width: 90vh;
+    padding-left: 100px;
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(61, 17, 101);
+    font-size: 20px;
+}
+.about-right{
+    padding-right: 150px;
+}
+.skills-header{
+    text-align: center;
+    font-family: cursive;
+}
+.skills-header h1{
+    margin-bottom: 0px;
+    font-size: 38px;
+}
+.skills-header p{
+    margin: 0px;
+    font-size: 20px;
+}
+.skills{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-bottom: 0px;
+}
+.hi{
+    font-size: 18px;
+    padding-left: 20px;
+}
+.container{
+    background-color: rgb(192,192,192);
+    width: 80%;
+    border-radius: 15px;
+}
+.skill{
+    background-color: rgb(157, 92, 194); 
+            color: white; 
+            padding: 1%; 
+            text-align: right; 
+            font-size: 20px; 
+            border-radius: 15px; 
+}
+.PYTHON {
+    width: 75%;
+}
+.FLASK{
+    width: 60%;
+}
+.JAVA{
+    width: 40%;
+}
+.HTML{
+    width: 90%;
+}
+.CSS{
+    width: 80%;
+}
+.srinadh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills-right{
+    padding-right: 20px;
+}
+.img{
+    height: 600px;
+    width: 600px;
+    padding-right: 20px;
+}
+.contact-header{
+        text-align: center;
+        font-family: cursive;
+}
+.contact-header h1{
+        margin-bottom: 0px;
+        font-size: 38px;
+}
+.contact-header p{
+        margin: 0px;
+        opacity: 50%;
+        font-size: 20px;
+}
+.Project-header{
+    text-align: center;
+    font-family: cursive;
+}
+.Project-header h1{
+    margin-bottom: 0px;
+    font-size: 38px;
+}
+.Project-header p{
+    margin: 0px;
+    opacity: 50%;
+    font-size: 20px;
+}
+.ach-header{
+    text-align: center;
+    font-family:cursive;
+    
+}
+.ach-header h1{
+    margin-bottom: 0px;
+    font-size: 38px;
+}
+.Project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Car{
+    background-color:ghostwhite;
+    width: 250px;
+    border: 5px solid rgb(76, 26, 123);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.Language{
+    background-color: ghostwhite;
+    width: 250px;
+    border: 5px solid rgb(76, 26, 123);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.Object{
+    background-color: ghostwhite;
+    width: 250px;
+    border: 5px solid rgb(76, 26, 123);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.Youtube{
+    background-color: ghostwhite;
+    width: 250px;
+    border: 5px solid rgb(76, 26, 123);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.Audio{
+    background-color: ghostwhite;
+    width: 250px;
+    border: 5px solid rgb(76, 26, 123);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;   
+}
+
+.btn{
+    background-color: rgb(99, 56, 122);
+    color: white;
+    margin-left: 550px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.ach-123{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.others{
+    padding-left: 50px;
+}
+.heading{
+    color: rgb(176, 10, 68);
+    font-family: cursive;
+}
+.ach-img{
+    padding-left: 850px;
+    position: fixed;
+}
